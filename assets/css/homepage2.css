@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 93% 2%;
+    grid-template-areas:
+                "hd hd hd"
+                "main main main"
+                "ft ft ft";
+    border: 2px solid black;
+    height: calc(100vh - 10px);;
+}
+
+.header {
+    grid-area: hd;
+    display: flex;
+    flex-direction: row;
+    background-color:gray;
+    justify-content: left;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid green;
+    background:white;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 1;
+}
+
+.content {
+    grid-area: main;
+    border: 1px solid pink;
+}
+
+.footer {
+    grid-area: ft;
+    border: 1px solid blue;
+}

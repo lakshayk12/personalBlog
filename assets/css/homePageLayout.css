@@ -1,0 +1,93 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5% 90% 5%;
+    grid-template-areas:
+                "hd hd hd"
+                "main main main"
+                "ft ft ft";
+    border: 1px solid black;
+    height: calc(100vh - 15px);
+    width: calc(100vw - 25px);
+}
+
+/* body {
+    overflow: hidden;
+} */
+
+.box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background:white;
+}
+
+.header {
+    grid-area: hd;
+    background-color:gray;
+}
+
+.content {
+    grid-area: main;
+    border: 1px solid brown;
+    overflow:scroll;
+}
+
+.footer {
+    grid-area: ft;
+    background-color:gray;
+    display: inline;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.leftListItem {
+    display: inline;
+    float: left;
+}
+
+.centerListItem{
+    float: center;
+}
+
+.rightListItem{
+    float: right;
+}
+
+a[target=nav] {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a[target=nav]:hover{
+    background-color: black;
+}
+
+.postsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 100% 100%; */
+    grid-auto-rows: minmax(575px, auto);
+    border: 1px solid yellow;
+}
+
+.postBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 15px;
+    margin: 10px;
+    /* align-items: center; */
+    justify-content: baseline;
+    position: relative;
+}
