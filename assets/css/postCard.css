@@ -16,14 +16,23 @@
 img {
     border-radius: 5px 5px 0 0;
     width: 100%;
-    height: 50%;
+    height: 45%;
 }
   
 .cardContainer {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* overflow: hidden; */
+    display: grid;
+    /* border: 2px solid red; */
     padding: 2px 16px;
+    height: 50%;
+    grid-auto-rows: minmax(auto, auto);
+}
+
+.cardContainer > * {
+    /* border: 1px red solid; */
+    margin: 3px;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .category {

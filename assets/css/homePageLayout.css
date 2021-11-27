@@ -6,7 +6,7 @@
                 "hd hd hd"
                 "main main main"
                 "ft ft ft";
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: calc(100vh - 15px);
     width: calc(100vw - 25px);
 }
@@ -18,7 +18,7 @@
 .box {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background:white;
 }
 
@@ -29,7 +29,7 @@
 
 .content {
     grid-area: main;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     overflow:scroll;
 }
 
@@ -76,15 +76,15 @@ a[target=nav]:hover{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-rows: 100% 100%; */
-    grid-auto-rows: minmax(575px, auto);
-    border: 1px solid yellow;
+    grid-auto-rows: minmax(500px, auto);
+    /* border: 1px solid yellow; */
 }
 
 .postBox {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
+    /* border: 1px solid purple; */
     padding: 15px;
     margin: 10px;
     /* align-items: center; */
