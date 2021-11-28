@@ -11,11 +11,6 @@
     width: calc(100vw - 25px);
 }
 
-body {
-    font-weight: 400;
-    font-family: "Times New Roman", serif;
-}
-
 .box {
     display: flex;
     flex-direction: row;
@@ -34,12 +29,6 @@ body {
     border: 1px solid brown;
     padding: 10px;
     overflow:scroll;
-}
-
-.footer {
-    grid-area: ft;
-    background-color:gray;
-    display: inline;
 }
 
 .contentGrid {

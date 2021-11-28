@@ -1,0 +1,12 @@
+.footer {
+    grid-area: ft;
+    display: flex;
+    background-color:gray;
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    color: white;
+}

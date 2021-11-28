@@ -11,10 +11,6 @@
     width: calc(100vw - 25px);
 }
 
-/* body {
-    overflow: hidden;
-} */
-
 .box {
     display: flex;
     flex-direction: row;
@@ -32,12 +28,6 @@
     grid-area: main;
     /* border: 1px solid brown; */
     overflow:scroll;
-}
-
-.footer {
-    grid-area: ft;
-    background-color:gray;
-    display: inline;
 }
 
 .postsGrid {
