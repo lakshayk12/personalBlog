@@ -6,7 +6,7 @@
                 "hd hd hd"
                 "main main main"
                 "ft ft ft";
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: calc(100vh - 15px);
     width: calc(100vw - 25px);
 }

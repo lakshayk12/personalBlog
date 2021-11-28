@@ -26,7 +26,7 @@
 
 .content {
     grid-area: main;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     padding: 10px;
     overflow:scroll;
 }
