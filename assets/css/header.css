@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    /* border: 1px solid red; */
+    justify-content: center;
+    width: calc(100vw - 25px);
+}
+
+.leftListItem {
+    /* float: left; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerListItem {
+    /* width: 10%; */
+    /* float: center; */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 150%;
+}
+
+.rightListItem{
+    /* float: right; */
+    width: 100%;
+}
+
+a[target=nav] {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a[target=nav]:hover{
+    background-color: black;
+}

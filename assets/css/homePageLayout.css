@@ -25,6 +25,7 @@
 .header {
     grid-area: hd;
     background-color:gray;
+    overflow: hidden;
 }
 
 .content {
@@ -37,39 +38,6 @@
     grid-area: ft;
     background-color:gray;
     display: inline;
-}
-
-.navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray;
-}
-
-.leftListItem {
-    display: inline;
-    float: left;
-}
-
-.centerListItem{
-    float: center;
-}
-
-.rightListItem{
-    float: right;
-}
-
-a[target=nav] {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a[target=nav]:hover{
-    background-color: black;
 }
 
 .postsGrid {
