@@ -52,14 +52,13 @@
 
 .extrasBar {
     display: block;
-    align-items: center;
+    /* flex-direction: column; */
+    /* align-items: center; */
     justify-content: center;
-    border: 1px solid purple;
+    border: 1px solid gray;
     border-radius: 10px;
     padding: 15px;
     margin: 10px;
-    /* align-items: center; */
-    justify-content: baseline;
     position: relative;
 }
 
@@ -95,14 +94,50 @@
     margin: 10px;
 }
 
+.author-info {
+    /* justify-content: center; */
+    border: 1px solid black;
+    border-radius: 10px;
+    /* object-fit: cover; */
+    /* width: 100%; */
+}
+
+.author-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center; */
+    object-fit: cover;
+    width: 100%;
+}
+
+/* .avatar {
+    object-fit: cover;
+    width: 100%
+} */
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+    /* height: 100%; */
+}
+
 .otherHeading{
-    margin-left: 10%;
+    margin-left: 5%;
+    /* border: 1px solid pink; */
+}
+
+.bio-para {
+    padding: 1%;
+    font-style: italic;
 }
 
 .otherBlogs {
     width: 100%;
-    padding: 10px;
+    padding: 1px;
     text-decoration: none;
+    /* border: 1px solid pink; */
 }
 
 .otherBlogs:hover > * {
@@ -110,11 +145,9 @@
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
   text-align: center;
   text-decoration: none;
+  border-radius: 20px;
 }
 
 .fa:hover {
@@ -131,4 +164,4 @@
 .fa-twitter {
   background: #55ACEE;
   color: white;
-} 
+}
