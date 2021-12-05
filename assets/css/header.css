@@ -17,14 +17,24 @@
     align-items: center;
 }
 
-.centerListItem {
-    /* width: 10%; */
-    /* float: center; */
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    width: 150%;
+@media (min-width: 500px) {
+    .centerListItem {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3em;
+        width: 150%;
+    }
+}
+
+@media (max-width: 500px) {
+    .centerListItem {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        width: 150%;
+    }
 }
 
 .rightListItem{
