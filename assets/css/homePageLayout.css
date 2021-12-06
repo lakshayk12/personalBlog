@@ -1,3 +1,7 @@
+@import "lowEndDevicesConfig.css";
+@import "midEndDevicesConfig.css";
+@import "highEndDevicesConfig.css";
+
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -28,36 +32,6 @@
     grid-area: main;
     /* border: 1px solid brown; */
     overflow:scroll;
-}
-
-@media(min-width:900px) {
-    .postsGrid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        /* grid-template-rows: 100% 100%; */
-        grid-auto-rows: minmax(500px, auto);
-        /* border: 1px solid yellow; */
-    }
-}
-
-@media(min-width:500px) and (max-width:900px) {
-    .postsGrid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* grid-template-rows: 100% 100%; */
-        grid-auto-rows: minmax(500px, auto);
-        /* border: 1px solid yellow; */
-    }
-}
-
-@media(max-width:500px) {
-    .postsGrid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        /* grid-template-rows: 100% 100%; */
-        grid-auto-rows: minmax(500px, auto);
-        /* border: 1px solid yellow; */
-    }
 }
 
 .postBox {
